@@ -1,0 +1,44 @@
+body{
+    background-color: dimgray;
+}
+
+.titulo{
+    color: rgba(191, 220, 232, 0.98);
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.start {
+    background-color: dimgray; 
+    color: azure; 
+    border: 2px solid #4CAF50;
+}
+
+.start:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.stop {
+    background-color: dimgray; 
+    color: azure; 
+    border: 2px solid #f44336;
+}
+
+.stop:hover {
+    background-color: #f44336;
+    color: white;
+}
